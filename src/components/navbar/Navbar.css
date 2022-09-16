@@ -1,0 +1,42 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    /* border: 1px solid red; */
+    background: #11154B;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+   
+    
+}
+.logo{
+    width: 20%;
+    /* border: 1px solid red; */
+    margin-left: 10vw;
+}
+.logo img{
+    object-fit: cover;
+}
+.menuItems{
+    width: 30%;
+    height: 10vh;
+    /* border: 1px solid green; */
+    margin-right: 10vw;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* border: 1px solid red; */
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu li{
+    font-size: 20px;
+    color: white;
+    
+}
