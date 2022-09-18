@@ -1,6 +1,7 @@
 import React from 'react';
 import palogo from './payAfrik_logo.png';
 import './Navbar.css';
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -14,8 +15,10 @@ const NavBar = () => {
                 <li>About</li>
                 <li>Products</li>
                 <li>Contact</li>
-                
             </ul>
+      </div>
+      <div className="pay_bills_btn">
+        <button> <FaArrowAltCircleRight/> Pay Bills</button>
       </div>
     </div>
   )
