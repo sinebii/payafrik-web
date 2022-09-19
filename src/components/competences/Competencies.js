@@ -1,6 +1,10 @@
 import React from 'react'
 import './Competencies.css';
-import { FaDesktop } from "react-icons/fa";
+import { VscFeedback } from "react-icons/vsc";
+import { VscLock } from "react-icons/vsc";
+import { VscBroadcast } from "react-icons/vsc";
+import { VscVm } from "react-icons/vsc";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
 
 const Competencies = () => {
   return (
@@ -11,6 +15,7 @@ const Competencies = () => {
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
+                                <VscVm className='pIcons'/>
                                 <p>Smart Products</p>
                             </div>
                             <div class="flip-card-back">
@@ -25,7 +30,8 @@ const Competencies = () => {
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <p>Great experience</p>
+                                <VscWorkspaceTrusted className='pIcons'/>
+                                <p>Trusted Security</p>
                             </div>
                             <div class="flip-card-back">
                                 <h1>John Doe</h1>
@@ -41,7 +47,9 @@ const Competencies = () => {
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="" alt="Avatar" />
+
+                                <VscBroadcast className='pIcons'/>
+                                <p>Award Winners</p>
                             </div>
                             <div class="flip-card-back">
                                 <h1>John Doe</h1>
@@ -55,7 +63,8 @@ const Competencies = () => {
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="" alt="Avatar" />
+                                <VscFeedback className='pIcons'/>
+                                <p>Great Eperience</p>
                             </div>
                             <div class="flip-card-back">
                                 <h1>John Doe</h1>

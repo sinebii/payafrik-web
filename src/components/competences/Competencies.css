@@ -77,16 +77,30 @@
     background: #ffa500;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
     color: black;
+    border-radius: 0.63rem;
+  }
+  .flip-card-front p{
+    font-size: 1.5rem;
+    color: #11154B;
+    font-weight: 500;
   }
   .flip-card-back {
     background: #ffa500;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
     color: #11154B;
     transform: rotateY(180deg);
+    border-radius: 0.63rem;
     
   }
 
   .icon_styling{
     font-size: 100px;
     align-items: center;
+  }
+
+  .pIcons{
+    font-size: 4.0rem;
+    align-self: center;
+    margin-top: 3vh;
+    color: #11154B;
   }

@@ -1,6 +1,7 @@
 :root{
     --maincolor:#11154B;
     --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
 }
 .home_about{
     width: 100%;
@@ -58,6 +59,7 @@
 
 }
 .about_btn{
+    margin-top: 2vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,8 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background: var(--secondarycolor);
+
+    background: var(--btncolor);
     color: var(--maincolor);
     width:40%;
     height: 7vh;
@@ -77,5 +79,6 @@
     cursor: pointer;
     font-size: 1.3rem;
     font-weight: 500;
+    gap: 0.5vw;
 
 }

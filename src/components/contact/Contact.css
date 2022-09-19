@@ -1,0 +1,112 @@
+:root{
+    --maincolor:#11154B;
+    --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
+}
+.contact_home{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 13vh;
+    padding: 0vh 10vw;
+
+}
+
+.contact_content{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+   
+}
+.contact_form{
+    
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.contact_title{
+    width: 100%;
+    margin-top: 3vh;
+    /* border: 1px solid green; */
+}
+.contact_title p:first-child{
+    color: var(--btncolor);
+    font-size: 1.5rem;
+
+}
+.contact_sub_title{
+
+    margin-top: 3vh;
+
+}
+.contact_sub_title p{
+    color: white;
+   font-size: 2.0rem;
+}
+
+.contact_txt_content{
+
+    margin-top: 3vh;
+    padding-right: 5vw;
+}
+
+.contact_txt_content p{
+    color: white;
+    line-height: 1.5;
+
+
+}
+
+.contact_form{
+    margin-top: 3vh;
+}
+
+.form_group{
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.form_group input{
+
+    width: 45%;
+    height: 6vh;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid white;
+    background: var(--maincolor);
+    color: white;
+}
+
+.form_group textarea{
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid white;
+    background: var(--maincolor);
+    color: white;
+}
+
+.form_group:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form_group button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--btncolor);
+    color: var(--maincolor);
+    width:35%;
+    gap: 0.5vw;
+    height: 6vh;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
