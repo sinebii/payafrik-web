@@ -5,10 +5,11 @@
 }
 .products_containner{
     width: 100%;
-    min-height: 130vh;
+    min-height: 100vh;
     /* border: 1px solid red; */
     margin-top: 13vh;
     padding: 0vh 10vw;
+    
 }
 .products_title{
 

@@ -44,50 +44,6 @@ const Products = () => {
                 <p>PayAfrik provides comprehensive distribution network mapping and updated customer indexation using the latest GIS (Geographic Information System) technology, mobile data collection app and map editor.</p>
             </div>
         </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p>Smart Network Monitoring Gateways</p>
-            </div>
-            <div className="product_description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur magni placeat sed amet alias fuga sapiente laboriosam iste? Fugit quae consequuntur nobis odit doloremque aspernatur molestiae vel dignissimos debitis.</p>
-            </div>
-        </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p>Universal Gateway (PUG) Power Solution</p>
-            </div>
-            <div className="product_description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur magni placeat sed amet alias fuga sapiente laboriosam iste? Fugit quae consequuntur nobis odit doloremque aspernatur molestiae vel dignissimos debitis.</p>
-            </div>
-        </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p>3rd Party Platform Automation/API Sharing</p>
-            </div>
-            <div className="product_description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur magni placeat sed amet alias fuga sapiente laboriosam iste? Fugit quae consequuntur nobis odit doloremque aspernatur molestiae vel dignissimos debitis.</p>
-            </div>
-        </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p> Smart Energy Eco-System</p>
-            </div>
-            <div className="product_description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur magni placeat sed amet alias fuga sapiente laboriosam iste? Fugit quae consequuntur nobis odit doloremque aspernatur molestiae vel dignissimos debitis.</p>
-            </div>
-        </div>
 
       </div>
     </div>

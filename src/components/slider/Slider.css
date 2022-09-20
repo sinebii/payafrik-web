@@ -1,3 +1,8 @@
+:root{
+    --maincolor:#11154B;
+    --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
+}
 .slider{
     width: 100%;
     height:70vh;
@@ -28,6 +33,6 @@
     margin-top: 2vh;
 }
 .subText p{
-    color: #ffa500;
+    color: var(--secondarycolor);
     line-height: 1.5;
 }
