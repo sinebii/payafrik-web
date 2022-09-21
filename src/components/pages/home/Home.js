@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Home.css';
-import Nav from './nav/Nav';
+import Nav from '../nav/Nav';
 import Slider from './slider/Slider';
 import About from './about/About';
 import Competencies from './competences/Competencies';

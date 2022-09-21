@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from '../nav/Nav'
 
 const Contact = () => {
   return (
     <div>
+        <Nav/>
       <h1>Contact us</h1>
     </div>
   )

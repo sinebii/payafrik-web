@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import {Link } from "react-router-dom";
 import { FaBars, FaTimes,FaArrowAltCircleRight } from "react-icons/fa";
 import './Nav.css';
 import palogo from './payAfrik_logo.png';
@@ -16,10 +17,10 @@ const Nav=()=> {
                 <img src={palogo} alt="PayAffrik logo"/>
             </div>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">About</a>
-				<a href="/#">Products</a>
-				<a href="/#">Contact</a>
+				<Link to="/home">Home</Link>
+				<Link to="/about">About</Link>
+				<Link to="/products">Products</Link>
+				<Link to="/contact">Contact</Link>
 			<button
 				className="nav-btn nav-close-btn"
 				onClick={showNavbar}>
