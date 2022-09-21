@@ -7,31 +7,32 @@
 .core_competences{
     width: 100%;
     height: 40vh;
-    /* border: 5px solid purple; */
     position: relative;
-    top: -80px;
+    top: -5rem;
     z-index: 0px;
     padding: 2vh 10vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* border: 3px solid yellow; */
 
     
 }
 
 .flip-card-parent{
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    /* border: 5px solid red; */
+    /* border: 3px solid red; */
     
 }
 
 .core_competencies_left{
-    width: 50%;
+    width: 48%;
     height: 100%;
-    /* border: 1px solid green; */
+    /* border: 5px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,9 +40,9 @@
 }
 
 .core_competencies_right{
-    width: 50%;
+    width: 45%;
     height: 100%;
-    /* border: 1px solid green; */
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,10 +50,14 @@
 
 .flip-card {
     background-color: transparent;
-    width: 90%;
+    width: 100%;
     height: 100%;
     border: 1px solid #11154B,;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 62.5rem; /* Remove this if you don't want the 3D effect */
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .flip-card-inner {
@@ -73,17 +78,18 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  .flip-card-front {
+  .flip-card-front{
     background: #ffa500;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
     color: black;
     border-radius: 0.63rem;
   }
-  .flip-card-front p{
+  .flip-card-front{
     font-size: 1.5rem;
     color: #11154B;
     font-weight: 500;
   }
+
   .flip-card-back {
     background: #ffa500;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
@@ -104,3 +110,34 @@
     margin-top: 3vh;
     color: #11154B;
   }
+
+  .subText_card{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1024px){
+
+    .core_competences{
+      flex-direction: column;
+      height: 60vh;
+      top: 3.8rem;
+      
+  
+      
+  }
+
+  .core_competencies_left{
+    width: 100%;
+
+    
+}
+
+.core_competencies_right{
+    width: 100%;
+    margin-top: 3vh;
+}
+    
+}

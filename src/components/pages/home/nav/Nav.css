@@ -1,0 +1,151 @@
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+.navbar_container {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+    background: #11154B;
+    border-bottom: 0.31rem solid #ffa500;
+	height: 12vh;
+	color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* border: 2px solid red; */
+    padding: 2vh 10vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+    height: 10vh;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+	font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+    
+}
+
+nav a:hover {
+	color: #ffa500;
+}
+
+.navbar_container .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+    /* border: 1px solid white; */
+}
+
+/* .navbar_container div,
+nav {
+    
+	display: flex;
+	align-items: center;
+} */
+
+.logo{
+    width: 18%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    /* margin: 5vh; */
+    /* width: 10.8rem;
+    height: %;
+    background-size: contain;
+    border: 1px solid green; */
+}
+.pay_bills_btn{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin-right: 10vw; */
+    /* background: #ffa500; */
+    
+}
+.pay_bills_btn button{
+    background:var(--btncolor);
+    color: #11154B;
+    width:10.5rem;
+    height: 6vh;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+@media only screen and (max-width: 1024px) {
+	.navbar_container .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+    .pay_bills_btn{
+        display: none;
+    }
+
+	.navbar_container nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	.navbar_container .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+
+    .logo{
+        width: 40%;
+        
+    }
+}

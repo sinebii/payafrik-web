@@ -28,7 +28,7 @@ const Contact = () => {
                 <input type="email" name="" id=""  placeholder='Email'/>
             </div>
             <div className="form_group">
-                <textarea name="" id="" cols="65" rows="6" placeholder='Message'></textarea>
+                <textarea name="" id="" cols="30" rows="6" placeholder='Message'></textarea>
             </div>
             <div className="form_group">
                 <button><FaAngleDoubleRight/> Send Message</button>
