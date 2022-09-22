@@ -2,14 +2,15 @@
     --maincolor:#11154B;
     --secondarycolor:#ffa500;
     --btncolor:#03BFCB;
+    --secondaryFont:'Montserrat', sans-serif;
 }
 .contact_home{
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
-    margin-top: 13vh;
+    /* margin-top: 3vh; */
     padding: 0vh 10vw;
 
 }
@@ -56,11 +57,14 @@
 .contact_txt_content p{
     color: white;
     line-height: 1.5;
+    font-family: var(--secondaryFont);
 
 }
 
 .contact_form{
     margin-top: 3vh;
+    
+
 }
 
 .form_group{
@@ -77,6 +81,8 @@
     border-bottom: 1px solid white;
     background: var(--maincolor);
     color: white;
+    font-family: var(--secondaryFont);
+    
 }
 
 .form_group textarea{
@@ -85,6 +91,7 @@
     border-bottom: 1px solid white;
     background: var(--maincolor);
     color: white;
+    font-family: var(--secondaryFont);
 }
 
 .form_group:first-child{
@@ -114,6 +121,7 @@
 
     .contact_home{
         flex-direction: column;
+        padding: 0vh 5vw;
     }
 
     .contact_content{

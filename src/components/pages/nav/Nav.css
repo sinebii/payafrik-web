@@ -1,6 +1,6 @@
 :root {
-	--mainColor: #29335c;
-	--mainColorLight: #5767aa;
+	--mainColor: #11154B;
+	--mainColorLight: #11154B;
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
 }
@@ -11,7 +11,7 @@
 	justify-content: space-between;
     background: #11154B;
     border-bottom: 0.31rem solid #ffa500;
-	height: 12vh;
+	height: 13vh;
 	color: white;
     position: sticky;
     top: 0;
@@ -105,6 +105,12 @@ nav {
 }
 
 @media only screen and (max-width: 1024px) {
+
+    .navbar_container{
+        /* border: 1px solid red; */
+        /* margin: 0vh 5vh; */
+        padding: 3vh 3vw;
+    }
 	.navbar_container .nav-btn {
 		visibility: visible;
 		opacity: 1;
@@ -145,7 +151,11 @@ nav {
 	}
 
     .logo{
-        width: 40%;
+        width: 60%;
         
+    }
+
+    .logo img{
+        width: 100%;
     }
 }

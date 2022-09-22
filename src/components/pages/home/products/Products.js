@@ -2,8 +2,26 @@ import React from 'react';
 import './Products.css';
 import utilityBills from './pay_for_utility.png';
 import smartMeter from './smart_meter.jpeg';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 const Products = () => {
+
+    const responsive = {
+        0: { items: 1 },
+        568: { items: 2 },
+        1024: { items: 3 },
+    };
+
+    const items = [
+        <div className="item" data-value="1"><img src={utilityBills}/> <p>Electricity Prepayment Smart Meters</p></div>,
+        <div className="item" data-value="2"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
+        <div className="item" data-value="3"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
+        <div className="item" data-value="4"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
+        <div className="item" data-value="5"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
+    ];
+
+
   return (
     <div className='products_containner'>
       <div className="products_title">
@@ -13,36 +31,20 @@ const Products = () => {
       <div className="products_main">
         <div className="product_card">
             <div className="product_image">
-                <img src={utilityBills} alt="" />
+                <AliceCarousel className="products_containner"
+                mouseTracking
+                items={items}
+                autoPlay
+                autoPlayInterval={1500}
+                infinite
+                responsive={responsive}
+                controlsStrategy="alternate"
+                />
             </div>
-            <div className="product_title">
-                <p>Electricity Prepayment Smart Meters</p>
-            </div>
-            <div className="product_description">
+            
+            {/* <div className="product_description">
                 <p>The PayAfrik electricity prepayment smart meter is a single phase and three phase electricity meter that provides in real-time the data of customers and ensures energy efficiency by reducing commercial loses while improving billing and collections.</p>
-            </div>
-        </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p>Smart Vending System and Utility Payment Solution</p>
-            </div>
-            <div className="product_description">
-                <p>PayAfrik smart vending system boast of a world class ICT infrastructure that drives its utility vending system with limitless capabilities. With a convenient and user-friendly Mobile payment App it has the capacity to improve billing and collection.</p>
-            </div>
-        </div>
-        <div className="product_card">
-            <div className="product_image">
-                <img src={utilityBills} alt="" />
-            </div>
-            <div className="product_title">
-                <p>Distribution Network Mapping & Customer Indexation</p>
-            </div>
-            <div className="product_description">
-                <p>PayAfrik provides comprehensive distribution network mapping and updated customer indexation using the latest GIS (Geographic Information System) technology, mobile data collection app and map editor.</p>
-            </div>
+            </div> */}
         </div>
 
       </div>

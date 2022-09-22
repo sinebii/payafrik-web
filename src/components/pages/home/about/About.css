@@ -50,14 +50,16 @@
 }
 
 .about_text p{
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.8;
     padding: 0.6rem 1.25rem;
     font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 
 }
 .about_btn{
-    margin-top: 2vh;
+    margin: 3vh 0vw;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,8 +86,10 @@
 @media only screen and (max-width: 1024px){
 
     .home_about{
-        margin-top: 15.0rem;
+        margin-top: 5vh;
         flex-direction: column;
+        padding: 0% 5vw;
+        
     }
 
     .about_image{
@@ -95,6 +99,7 @@
     }
     .about_content{
         width: 100%;
+        margin-top: 3vh;
         /* border: 1px solid green; */
     
     }

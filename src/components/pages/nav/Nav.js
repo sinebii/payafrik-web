@@ -14,11 +14,13 @@ const Nav=()=> {
 	return (
 		<div className="navbar_container">
 			<div className='logo'>
+				<Link to="/">
                 <img src={palogo} alt="PayAffrik logo"/>
+				</Link>
             </div>
 			<nav ref={navRef}>
-				<Link to="/home">Home</Link>
-				<Link to="/about">About</Link>
+				<Link to="/">Home</Link>
+				<Link to="/about">About PayAfrik</Link>
 				<Link to="/products">Products</Link>
 				<Link to="/contact">Contact</Link>
 			<button
