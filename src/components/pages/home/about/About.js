@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css';
 import aboutImage from './future-of-smart-technology-in-home.jpg';
 import { FaAngleDoubleRight } from "react-icons/fa";
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 const About = () => {
   return (

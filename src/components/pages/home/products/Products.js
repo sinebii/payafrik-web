@@ -15,9 +15,9 @@ const Products = () => {
 
     const items = [
         <div className="item" data-value="1"><img src={utilityBills}/> <p>Electricity Prepayment Smart Meters</p></div>,
-        <div className="item" data-value="2"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
-        <div className="item" data-value="3"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
-        <div className="item" data-value="4"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
+        <div className="item" data-value="2"><img src={utilityBills}/><p>3rd Party Platform Automation/API Sharing</p></div>,
+        <div className="item" data-value="3"><img src={utilityBills}/><p>Smart Energy Eco-System</p></div>,
+        <div className="item" data-value="4"><img src={utilityBills}/><p>Universal Gateway (PUG) Power Solution</p></div>,
         <div className="item" data-value="5"><img src={utilityBills}/><p>Electricity Prepayment Smart Meters</p></div>,
     ];
 

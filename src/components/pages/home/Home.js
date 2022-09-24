@@ -9,6 +9,7 @@ import Contact from './contact/Contact';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import smartMeter from './products/pay_for_utility.png';
+import Footer from '../footer/Footer';
 
 
 
@@ -42,7 +43,7 @@ const Home = () => {
         {/* <AliceCarousel mouseTracking items={items} autoPlay={true} infinite={true}/> */}
         <Products/>
         <Contact/>
-        {/* <Footer/> */}
+        <Footer/>
 
         
       
