@@ -1,0 +1,40 @@
+.bread_crumb{
+    width: 100%;
+    height: 35vh;
+    /* border: 2px solid red; */
+    background-image: url("./hd-wide-2.jpg");
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.breadcrumb_left{
+    width: 100%;
+    min-height: 20vh;
+    /* border: 1px solid green; */
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+
+.breadcrumb_left p:first-child{
+    color: white;
+    font-size: 2.5rem;
+}
+.breadcrumb_left p:nth-child(2){
+
+    color: white;
+}
+
+
+.breadcrum_right p{
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .bread_crumb{
+        height: 25vh;
+    }
+
+}

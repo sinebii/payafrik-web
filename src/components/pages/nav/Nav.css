@@ -9,8 +9,8 @@
 	display: flex;
 	/* align-items: center; */
 	justify-content: space-between;
-    background: #11154B;
-    border-bottom: 0.31rem solid #ffa500;
+    background: white;
+    border-bottom: 0.31rem solid #0C41A6;
 	height: 13vh;
 	color: white;
     position: sticky;
@@ -30,7 +30,7 @@ nav{
 }
 nav a {
 	font-size: 1.25rem;
-    color: white;
+    color:#0C41A6;
     text-decoration: none;
     transition: 0.5s ease-in;
     
@@ -46,7 +46,7 @@ nav a:hover {
 	background: transparent;
 	border: none;
 	outline: none;
-	color: var(--textColor);
+	color: #0C41A6;
 	visibility: hidden;
 	opacity: 0;
 	font-size: 2.2rem;
@@ -67,9 +67,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid green; */
     
 }
 .logo img{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
     /* margin: 5vh; */
     /* width: 10.8rem;
     height: %;
@@ -88,10 +96,11 @@ nav {
     
 }
 .pay_bills_btn button{
-    background:var(--btncolor);
-    color: #11154B;
+    background:#0C41A6;
+    color: #fdfdfd;
     width:10.5rem;
     height: 6vh;
+    margin-top: 2vh;
     outline: none;
     border: none;
     font-size: 1.25rem;
@@ -131,7 +140,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
+		background-color: white;
 		transition: 1s;
 		transform: translateY(-100vh);
 	}

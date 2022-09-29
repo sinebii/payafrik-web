@@ -2,7 +2,7 @@
 
     width: 100%;
     min-height: 40vh;
-    background: #11154B;
+    background: #FDFDFD;
 }
 .core_competences{
     width: 100%;
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: 3px solid yellow; */
+    /* border: 2px solid green; */
 
     
 }
@@ -79,10 +79,14 @@
     backface-visibility: hidden;
   }
   .flip-card-front{
-    background: #ffa500;
+    background: #FDFDFD;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
     color: black;
     border-radius: 0.63rem;
+    box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+  }
+  .flip-card-front p{
+    color: #0C41A6;
   }
   .flip-card-front{
     font-size: 1.5rem;
@@ -91,7 +95,7 @@
   }
 
   .flip-card-back {
-    background: #ffa500;
+    background: #FDFDFD;
     /* background-image: linear-gradient(180deg, #ffa500,#11154B); */
     color: #11154B;
     transform: rotateY(180deg);
@@ -108,7 +112,7 @@
     font-size: 4.0rem;
     align-self: center;
     margin-top: 3vh;
-    color: #11154B;
+    color: #0C41A6;
   }
 
   .subText_card{

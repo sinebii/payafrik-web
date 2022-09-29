@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { FcElectricity } from "react-icons/fc";
+import { FaBolt } from "react-icons/fa";
 import { FaWater } from "react-icons/fa";
 import { FaGasPump} from "react-icons/fa";
 import { MdPayment} from "react-icons/md";
@@ -15,7 +15,7 @@ const SmartTech = () => {
       <div className="smart_tech_body">
             
             <div className="es">
-                <FcElectricity className='st_icons'/>
+                <FaBolt className='st_icons'/>
                 <p>Electricity supply industry </p>
             </div>
             <div className="gs">

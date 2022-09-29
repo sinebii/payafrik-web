@@ -1,6 +1,7 @@
 import React from 'react';
 import './Products.css';
 import utilityBills from './pay_for_utility.png';
+import smartM from './smartm.png';
 import smartMeter from './smart_meter.jpeg';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';

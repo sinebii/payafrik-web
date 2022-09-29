@@ -1,0 +1,95 @@
+.contact_container{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    /* font-family: 'Montserrat', sans-serif; */
+    
+
+}
+
+.contact_contact_main{
+
+    width: 100%;
+    min-height: 70vh;
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 0vh 10vw;
+    margin-top: 5vh;
+    justify-content: space-between;
+
+}
+
+.main_contact_form{
+
+    width: 46%;
+    height: 70vh;
+    /* border: 1px solid green; */
+
+}
+.contact_address{
+
+    width: 46%;
+    min-height: 40vh;
+    /* border: 1px solid green; */
+    
+}
+
+.contact_address .title p{
+
+    font-size: 1.8rem;
+    color: #0C41A6;
+}
+
+.main_contact_form .title p:nth-child(2){
+    color: #0C41A6;
+}
+
+.main_contact_form .title{
+    margin-top: 2vh;
+    display: flex;
+    /* border: 2px solid green; */
+    flex-direction: column;
+}
+.address{
+    margin-top: 2vh;
+}
+.address p{
+    color: #11154B;
+}
+.contact_address .address p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_contact_form .title p:first-child{
+
+    color: #0C41A6;
+    font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .contact_contact_main{
+
+        flex-direction: column;
+        padding: 0vh 5vw;
+        margin-top: 5vh;
+        justify-content: space-between;
+    
+    }
+
+    .main_contact_form{
+
+        width: 100%;
+        
+    
+    }
+    .contact_address{
+    
+        width: 100%;
+        margin-top: 2vh;
+        
+        
+    }
+
+}

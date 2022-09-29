@@ -1,12 +1,12 @@
 import React from 'react';
-import './About.css';
+import './BreadCrumb.css';
 
-const BreadCrumb = () => {
+const BreadCrumb = (props) => {
   return (
     <div className='bread_crumb'>
         <div className="breadcrumb_left">
-            <p>ABOUT US</p>
-            <p>PayAfrik...providing solutions</p>
+            <p>{props.breadcrumb.title}</p>
+            <p>{props.breadcrumb.subTitle}</p>
         </div>
     </div>
   )
