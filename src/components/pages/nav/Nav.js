@@ -17,12 +17,16 @@ const Nav=()=> {
 				<Link to="/">
                 <img src={palogo} alt="PayAffrik logo"/>
 				</Link>
+				<p>Transparency in Energy management</p>
             </div>
 			<nav ref={navRef}>
 				<Link to="/">Home</Link>
-				<Link to="/about">About PayAfrik</Link>
-				<Link to="/products">Products</Link>
-				<Link to="/contact">Contact</Link>
+				<Link to="/solution">Solution</Link>
+				{/* <Link to="/about">About PayAfrik</Link> */}
+				<Link to="/products">Products/Services</Link>
+				<Link to="/merchants">Merchants</Link>
+				<Link to="/blog">Blog</Link>
+				<Link to="/contact">Contacts</Link>
 			<button
 				className="nav-btn nav-close-btn"
 				onClick={showNavbar}>
@@ -33,7 +37,7 @@ const Nav=()=> {
 				<FaBars />
 			</button>
             <div className="pay_bills_btn">
-                <button> <FaArrowAltCircleRight/> Pay Bills</button>
+                <button> <FaArrowAltCircleRight/> <Link to="/dashboard">Pay Bills</Link></button>
             </div>
 		</div>
 	);

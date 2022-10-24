@@ -27,7 +27,8 @@ const Products = () => {
     <div className='products_containner'>
       <div className="products_title">
             <p>Our Products</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius atque fugit ratione tempore minima alias enim eum. Tempore labore repudiandae consequatur error facilis sit commodi nisi hic corporis officiis praesentium fugiat quibusdam voluptas dolore, beatae, nobis sapiente magnam temporibus laudantium maiores. </p>
+            <p>Our unique and global products are distinguished by recent innovations in the individual sectors of focus. These products make it possible for customers to monitor their electricity usage and effectively manage their power consumption and avoid wastage. <br/>
+              We have developed a wide range of tools and innovations using Artificial Intelligence (AI), BlockChain, and Mobile technology to provide business solutions across the electricity value chain and hence enable a smart energy ecosystem that significantly reduces ATC&C losses and propagates an exponential lift in revenue for the power sector in Africa.</p>
       </div>
       <div className="products_main">
         <div className="product_card">

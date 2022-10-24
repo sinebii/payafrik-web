@@ -16,8 +16,8 @@ const Competencies = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                     <VscVm className='pIcons'/>
-                                    <p>Smart Products</p>
-                                    <p className='subText_card'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, deleniti.</p>
+                                    <p>Manage Electricity Better</p>
+                                    <p className='subText_card'>#</p>
                                 </div>
                                 <div className="flip-card-back">
                                     <h1>John Doe</h1>
@@ -32,8 +32,8 @@ const Competencies = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                     <VscWorkspaceTrusted className='pIcons'/>
-                                    <p>Trusted Security</p>
-                                    <p className='subText_card'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, deleniti.</p>
+                                    <p>Smart Metering</p>
+                                    <p className='subText_card'>#</p>
                                 </div>
                                 <div className="flip-card-back">
                                     <h1>John Doe</h1>
@@ -51,8 +51,8 @@ const Competencies = () => {
                                 <div className="flip-card-front">
 
                                     <VscBroadcast className='pIcons'/>
-                                    <p>Award Winners</p>
-                                    <p className='subText_card'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, deleniti.</p>
+                                    <p>Cross Border Payment </p>
+                                    <p className='subText_card'>#</p>
                                 </div>
                                 <div className="flip-card-back">
                                     <h1>John Doe</h1>
@@ -68,7 +68,7 @@ const Competencies = () => {
                                 <div className="flip-card-front">
                                     <VscFeedback className='pIcons'/>
                                     <p>Great Eperience</p>
-                                    <p className='subText_card'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, deleniti.</p>
+                                    <p className='subText_card'>#</p>
                                 </div>
                                 <div className="flip-card-back">
                                     <h1>John Doe</h1>

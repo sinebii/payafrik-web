@@ -2,18 +2,18 @@ import React from 'react';
 import Nav from '../nav/Nav';
 import BreadCrumb from '../../breadcrumb/BreadCrumb';
 
-const Products = () => {
+const Blog = () => {
     const breadcrumb = {
-        title:"PRODUCTS",
-        subTitle:"We will love to here from you."
+        title:"Blog",
+        subTitle:"From our blog..."
     }
   return (
     <div>
         <Nav/>
         <BreadCrumb breadcrumb={breadcrumb}/>
-      <h1>Products</h1>
+      <h1>Blog</h1>
     </div>
   )
 }
 
-export default Products
+export default Blog

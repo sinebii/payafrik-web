@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../nav/Nav';
-import BreadCrumb from '../breadcrumb/BreadCrumb';
+import BreadCrumb from '../../breadcrumb/BreadCrumb';
 import './Contact.css';
 import MainContact from './MainContact';
 import Footer from '../footer/Footer';

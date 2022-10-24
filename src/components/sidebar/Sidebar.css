@@ -1,0 +1,18 @@
+.sidebar{
+    width: 20%;
+    height: 87vh;
+    background: #0C41A6;
+}
+
+.utility_link{
+    display: flex;
+    flex-direction: column;
+    height: 6vh;
+    margin: 0vh 1vw;
+}
+
+.utility_link a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #1A2B56;
+}

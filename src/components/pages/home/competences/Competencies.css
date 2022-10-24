@@ -3,6 +3,7 @@
     width: 100%;
     min-height: 40vh;
     background: #FDFDFD;
+    /* border: 1px solid red; */
 }
 .core_competences{
     width: 100%;
@@ -88,6 +89,10 @@
   .flip-card-front p{
     color: #0C41A6;
   }
+
+  .flip-card-front p:nth-child(3){
+    color: #11154B;
+  }
   .flip-card-front{
     font-size: 1.5rem;
     color: #11154B;
@@ -151,6 +156,23 @@
 .core_competencies_right{
     width: 100%;
     margin-top: 3vh;
+}
+
+.flip-card-parent{
+  min-height: 33vh;
+  
+}
+.pIcons{
+  font-size: 2.0rem;
+  
+}
+
+.hey{
+
+  width: 100%;
+  min-height: 75vh;
+  background: #FDFDFD;
+  
 }
     
 }

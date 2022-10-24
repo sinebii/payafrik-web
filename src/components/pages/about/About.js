@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../nav/Nav';
-import BreadCrumb from '../breadcrumb/BreadCrumb';
+import BreadCrumb from '../../breadcrumb/BreadCrumb';
 import Abt from './Abt';
 import SmartTech from './SmartTech';
 import VisionMission from './VisionMission';

@@ -31,13 +31,13 @@ const MainContact = () => {
             <p>Our office address</p>
         </div>
         <div className="address">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima beatae, quisquam blanditiis dolor sapiente veniam?</p>
+        <p>How can we help? Get information about our products, solutions and services, or if you would like a price quote.</p>
         </div>
         <div className="title">
             <p>Talk to us</p>
         </div>
         <div className="address">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, laudantium?</p>
+            <p>Are you an existing customer? Get technical support or information regarding order status.</p>
         </div>
       </div>
     </div>

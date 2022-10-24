@@ -13,7 +13,7 @@ const Contact = () => {
             <p>Request a free <br></br>consultation with us</p>
         </div>
         <div className="contact_txt_content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea illum officiis rem placeat ipsam, ipsum consectetur eos voluptates libero accusantium ipsa molestias minus praesentium laudantium? Fugiat adipisci.</p>
+            <p>When you’re ready to get started, we’re ready to help. Our team is here to provide the products, solutions, and services you need.</p>
         </div>
 
       </div>

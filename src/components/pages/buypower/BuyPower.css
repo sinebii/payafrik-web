@@ -1,0 +1,69 @@
+.buypower_form_container{
+    width: 100%;
+    height: 87vh;
+    /* border: 1px solid red; */
+    padding: 2vh 10vw;
+    background:#ccc;
+}
+.buypower_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+    background: white;
+    padding: 1rem 0rem;
+}
+.buypower_header p:first-child{
+    font-size: 2rem;
+    color: #0C41A6;
+}
+.buypower_header button{
+    background: #0C41A6;
+    width: 30%;
+    height: 5vh;
+    color: white;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+label{
+    color: #0C41A6;
+}
+.buypower_header p:nth-child(2){
+    font-size: 1rem;
+    color: #0C41A6;
+}
+.main_form{
+    /* border: 1px solid red; */
+    padding: 3rem 10rem;
+    background: white;
+    border-radius: 0.31rem;
+    
+}
+.formGroup{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    
+}
+
+.formGroup button{
+    background: #0C41A6;
+    height: 5vh;
+    color: white;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+input{
+    height: 2.5rem;
+    outline: none;
+    padding-left: 0.32rem;
+}
+select{
+    height: 2.5rem;
+}
