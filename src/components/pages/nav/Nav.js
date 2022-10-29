@@ -37,7 +37,7 @@ const Nav=()=> {
 				<FaBars />
 			</button>
             <div className="pay_bills_btn">
-                <button> <FaArrowAltCircleRight/> <Link to="/dashboard">Pay Bills</Link></button>
+                <button> <FaArrowAltCircleRight/> Pay Bills</button>
             </div>
 		</div>
 	);
